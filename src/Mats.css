@@ -1,0 +1,43 @@
+.mats-container {
+  display: flex;
+  justify-content: center;
+}
+
+.mats-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #f2f2f2;
+  width: 700px;
+  height: 80px;
+}
+
+.mats {
+  display: flex;
+  align-items: center;
+  width: 450px;
+  justify-content: space-between;
+}
+
+.mats h1 {
+  font-size: 16px;
+}
+
+.mats-data {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.mats-data > div {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  justify-content: flex-end;
+}
+
+.mats-data > div > p {
+  margin-left: 10px;
+}
